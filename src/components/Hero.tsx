@@ -14,14 +14,14 @@ const Hero = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Hi, I'm a{' '}
+            Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Flutter Developer
+              Tamim Hasan
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            With 2 years of experience crafting beautiful mobile applications. 
+            A Flutter Developer with 2 years of experience crafting beautiful mobile applications. 
             I specialize in creating seamless user experiences with Flutter and Dart.
           </p>
           

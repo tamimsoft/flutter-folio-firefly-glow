@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="text-center">
           <div className="mb-6">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Flutter Developer Portfolio
+              Tamim Hasan - Flutter Developer
             </h3>
           </div>
           
@@ -23,12 +23,12 @@ const Footer = () => {
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
             <span>and</span>
             <Code className="w-4 h-4 text-blue-400" />
-            <span>by a Flutter Developer</span>
+            <span>by Tamim Hasan</span>
           </div>
 
           <div className="mt-8 pt-8 border-t border-gray-800">
             <p className="text-gray-500 text-sm">
-              © 2024 Flutter Developer Portfolio. All rights reserved.
+              © 2024 Tamim Hasan. All rights reserved.
             </p>
           </div>
         </div>
