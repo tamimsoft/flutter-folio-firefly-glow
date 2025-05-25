@@ -5,8 +5,8 @@ import { Heart, Code2, Users, Trophy } from 'lucide-react';
 const About = () => {
   const stats = [
     { label: 'Years Experience', value: '2+', icon: Trophy },
-    { label: 'Projects Completed', value: '10+', icon: Code2 },
-    { label: 'Happy Clients', value: '15+', icon: Users },
+    { label: 'Projects Completed', value: '15+', icon: Code2 },
+    { label: 'Happy Clients', value: '10+', icon: Users },
     { label: 'Cups of Coffee', value: '500+', icon: Heart },
   ];
 
@@ -28,19 +28,20 @@ const About = () => {
               My Journey as a Developer
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              I started my journey in mobile development 2 years ago and quickly fell in love with Flutter's 
-              ability to create beautiful, cross-platform applications. My passion lies in bridging the gap 
-              between design and functionality.
+              Passionate Flutter Developer with 2+ years of experience building smooth, high-quality mobile 
+              apps for both Android and iOS. I'm comfortable working across the full app lifecycle—from 
+              designing UI to integrating APIs and shipping to the app store.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Recently, I've been working on an LMS (Learning Management System) application that showcases 
-              my ability to handle complex state management, API integrations, and user authentication. 
-              This project has taught me the importance of scalable architecture and clean code practices.
+              Currently working as a Software Developer at myCamous Ltd, where I've led development of 
+              Online Admission and Job Recruitment modules using PHP, enabling thousands of users to apply, 
+              track, and manage applications online. I've optimized backend logic and database queries to 
+              reduce processing time by 30%.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              When I'm not coding, you'll find me exploring new Flutter packages, contributing to open-source 
-              projects, or learning about the latest mobile development trends. I believe in continuous learning 
-              and staying updated with the ever-evolving tech landscape.
+              I enjoy solving real-world problems through thoughtful, scalable mobile solutions and am 
+              skilled in Flutter, Dart, Firebase, and RESTful APIs, with a strong eye for clean code and 
+              app performance. Looking to join a team where I can grow and build apps that make a difference.
             </p>
           </div>
 

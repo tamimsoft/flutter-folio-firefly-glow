@@ -7,37 +7,37 @@ const Skills = () => {
     {
       title: 'Mobile Development',
       icon: Smartphone,
-      skills: ['Flutter', 'Dart', 'iOS Development', 'Android Development', 'Cross-platform Apps'],
+      skills: ['Flutter', 'Dart (BLoC, GetX)', 'SQLite/Drift', 'Hive', 'Firebase'],
       color: 'from-blue-500 to-blue-600'
     },
     {
-      title: 'Backend & APIs',
+      title: 'Backend Development',
       icon: Database,
-      skills: ['REST APIs', 'Firebase', 'GraphQL', 'SQLite', 'Cloud Firestore'],
+      skills: ['PHP', 'Java Spring Boot', 'MySQL', 'MongoDB', 'JWT'],
       color: 'from-green-500 to-green-600'
-    },
-    {
-      title: 'UI/UX Design',
-      icon: Palette,
-      skills: ['Material Design', 'Cupertino Design', 'Responsive Design', 'Animations', 'Custom Widgets'],
-      color: 'from-purple-500 to-purple-600'
-    },
-    {
-      title: 'Tools & Technologies',
-      icon: Code,
-      skills: ['Git', 'Android Studio', 'VS Code', 'Figma', 'Postman'],
-      color: 'from-orange-500 to-orange-600'
     },
     {
       title: 'State Management',
       icon: Zap,
-      skills: ['Provider', 'Bloc', 'Riverpod', 'GetX', 'setState'],
+      skills: ['BLoC Pattern', 'GetX', 'Provider', 'Clean Architecture', 'Repository Pattern'],
       color: 'from-red-500 to-red-600'
     },
     {
-      title: 'Other Skills',
+      title: 'Tools & DevOps',
+      icon: Code,
+      skills: ['Git', 'Postman', 'FVM', 'SonarQube', 'Jira'],
+      color: 'from-orange-500 to-orange-600'
+    },
+    {
+      title: 'Cloud & Backend Services',
       icon: Globe,
-      skills: ['React', 'JavaScript', 'Python', 'Node.js', 'MongoDB'],
+      skills: ['Supabase', 'Firebase', 'REST API Integration', 'Railway', 'MongoDB Atlas'],
+      color: 'from-purple-500 to-purple-600'
+    },
+    {
+      title: 'Development Practices',
+      icon: Palette,
+      skills: ['Clean Architecture', 'Offline-First Design', 'Agile Methodology', 'Test-Driven Development', 'Code Review'],
       color: 'from-indigo-500 to-indigo-600'
     }
   ];
@@ -86,12 +86,12 @@ const Skills = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Core Proficiencies</h3>
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { skill: 'Flutter', level: 90 },
-              { skill: 'Dart', level: 85 },
-              { skill: 'Firebase', level: 80 },
-              { skill: 'State Management', level: 85 },
-              { skill: 'UI/UX Design', level: 75 },
-              { skill: 'API Integration', level: 80 }
+              { skill: 'Flutter', level: 92 },
+              { skill: 'Dart', level: 90 },
+              { skill: 'PHP', level: 85 },
+              { skill: 'State Management (BLoC/GetX)', level: 88 },
+              { skill: 'API Integration', level: 85 },
+              { skill: 'Spring Boot', level: 75 }
             ].map((item, index) => (
               <div key={index} className="mb-4">
                 <div className="flex justify-between mb-2">

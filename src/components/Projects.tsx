@@ -1,48 +1,48 @@
 
 import React from 'react';
-import { ExternalLink, Github, Smartphone, GraduationCap, ShoppingCart, Calendar } from 'lucide-react';
+import { ExternalLink, Github, ShoppingCart, BookOpen, Users, GraduationCap } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
-      title: 'LMS Mobile App',
-      description: 'A comprehensive Learning Management System built with Flutter, featuring course management, video streaming, quizzes, and progress tracking.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      technologies: ['Flutter', 'Dart', 'Firebase', 'Provider', 'Video Player'],
-      githubUrl: '#',
-      liveUrl: '#',
-      icon: GraduationCap,
-      color: 'from-blue-500 to-blue-600'
-    },
-    {
-      title: 'E-Commerce App',
-      description: 'A modern e-commerce mobile application with cart management, payment integration, and real-time order tracking.',
+      title: 'E-Commerce Mobile App',
+      description: 'Full-stack e-commerce mobile app built with Flutter and Java Spring Boot. Features secure RESTful APIs, BLoC state management, and offline caching with Drift (SQLite). Improved load speed by 40% in poor network conditions.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      technologies: ['Flutter', 'Stripe API', 'Bloc', 'Sqflite', 'Push Notifications'],
+      technologies: ['Flutter', 'BLoC', 'Drift (SQLite)', 'Spring Boot', 'JWT', 'MongoDB'],
       githubUrl: '#',
       liveUrl: '#',
       icon: ShoppingCart,
       color: 'from-green-500 to-green-600'
     },
     {
-      title: 'Task Manager',
-      description: 'A productivity app for task management with calendar integration, reminders, and team collaboration features.',
-      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      technologies: ['Flutter', 'GetX', 'Local Storage', 'Calendar API', 'Notifications'],
+      title: 'Library Management App',
+      description: 'Modern Flutter-based library management app with Google/GitHub/Email authentication. Built with GetX for state management, Supabase as BaaS, and Hive for offline storage. Features real-time database and role-based access control.',
+      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      technologies: ['Flutter', 'GetX', 'Hive', 'Supabase', 'Google Auth', 'GitHub Auth'],
       githubUrl: '#',
       liveUrl: '#',
-      icon: Calendar,
+      icon: BookOpen,
       color: 'from-purple-500 to-purple-600'
     },
     {
-      title: 'Social Media App',
-      description: 'A social networking platform with real-time messaging, photo sharing, and user profiles built with Flutter.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-      technologies: ['Flutter', 'Firebase Auth', 'Cloud Firestore', 'Image Picker', 'Chat'],
+      title: 'Association Management App',
+      description: 'Comprehensive association management application developed from scratch using Flutter and GetX. Built RESTful APIs using PHP for backend services. Contract project for nstechbd with full lifecycle development.',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      technologies: ['Flutter', 'GetX', 'PHP', 'REST API', 'MySQL', 'Custom Backend'],
       githubUrl: '#',
       liveUrl: '#',
-      icon: Smartphone,
-      color: 'from-pink-500 to-pink-600'
+      icon: Users,
+      color: 'from-blue-500 to-blue-600'
+    },
+    {
+      title: 'Online Admission & Job Recruitment System',
+      description: 'Led development of comprehensive admission and recruitment modules at myCamous Ltd. Optimized backend logic and database queries, reducing processing time by 30% and enabling thousands of users to apply and track applications.',
+      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      technologies: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'AJAX', 'REST API'],
+      githubUrl: '#',
+      liveUrl: '#',
+      icon: GraduationCap,
+      color: 'from-orange-500 to-orange-600'
     }
   ];
 
@@ -54,7 +54,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Showcasing my best work in mobile app development
+            Real-world applications showcasing my expertise in mobile and web development
           </p>
         </div>
 
@@ -113,7 +113,7 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-full hover:scale-105 transition-transform duration-200 shadow-lg">
-            View All Projects
+            View All Projects on GitHub
           </button>
         </div>
       </div>
